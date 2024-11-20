@@ -415,7 +415,7 @@ const PrescriptionAccess = () => {
                             <h1 className="text-3xl font-bold text-gray-800">Prescription Access</h1>
                             <button
                                 className="flex items-center px-4 py-2 ml-4 text-black transition duration-300 border rounded-lg hover:bg-gray-200 focus:outline-none"
-                                onClick={() => navigate("/")}>
+                                onClick={() => navigate("")}>
                                 <FaCalendarDays className="mr-2" />
                                 2 Jan, 2022 - 13 Jan, 2022
                                 <IoCloseCircleOutline className="text-red-700 ms-2" />
