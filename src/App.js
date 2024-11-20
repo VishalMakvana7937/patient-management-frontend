@@ -51,7 +51,7 @@ function App() {
         <Routes>
 
           {/* Auth */}
-          <Route path='/' Component={AdminLogin} />
+          <Route path='/' Component={PatientLogin} />
           <Route path="/patient/signup" element={<PatientSignup />} />
           <Route path="/patient/login" element={<PatientLogin />} />
 
